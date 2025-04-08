@@ -1,7 +1,7 @@
 
-# Student Portfolio
+# Portfolio
 
-This is a simple portfolio site hosted using GitHub Pages.
+Welcome to my porfolio.
 
 ## How to Use
 
