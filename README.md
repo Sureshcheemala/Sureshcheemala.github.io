@@ -1,15 +1,15 @@
-# Suresh's Portfolio
+# Suresh Cheemala — Portfolio v1
 
-Welcome to my personal portfolio! Here you'll find some of my projects and work. Feel free to check out my GitHub repositories for more.
-You can visit my website(https://Sureshcheemala.github.io)
+A static portfolio built with HTML, CSS and vanilla JavaScript.
 
-## Projects
+## Structure
+- FounderLink is the flagship software-engineering project.
+- Order Management and Movie Ticket Booking are supporting projects.
+- Cybersecurity has its own project/achievement section.
+- The engineering stack shows the broader technologies and foundations.
+- The journey section leaves room for future Cloud and AI work.
 
-### Student Grade Analysis
-A Python program that tracks and visualizes academic performance.
+## GitHub Pages
+Upload these files to the root of the GitHub Pages repository and enable Pages from the `main` branch.
 
-You can view the project on [GitHub](https://github.com/Sureshcheemala/student-grade-analysis).
-
-## Contact
-
-You can reach me at (mailto:chnvss.719@gmail.com).
+Before publishing, add real URLs for LinkedIn, project repositories/demos, certificates and the resume when available.

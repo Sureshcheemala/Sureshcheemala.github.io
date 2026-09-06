@@ -1,32 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suresh | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Suresh Cheemala — Software Engineer focused on Java, Spring Boot, distributed systems and cybersecurity.">
+<title>Suresh Cheemala | Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Hello, I'm <span class="highlight">Suresh</span></h1>
-        <p>Aspiring Data Analyst & Developer 🚀</p>
-    </header>
+<header><nav class="nav wrap"><a class="logo" href="#top">SC<span>.</span></a><button class="menu" aria-label="Menu">☰</button>
+<div class="links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#cyber">Cybersecurity</a><a href="#stack">Stack</a><a href="#journey">Journey</a><a href="#contact">Contact</a></div></nav></header>
 
-    <section class="projects">
-        <h2>My Projects</h2>
+<main id="top">
+<section class="hero wrap">
+<div><p class="eyebrow">SOFTWARE ENGINEER · SYSTEMS BUILDER</p>
+<h1>Building software.<br><em>Understanding the systems behind it.</em></h1>
+<p class="intro">I'm Suresh Cheemala, a Computer Science graduate focused on Java, Spring Boot, distributed systems and security. I build projects to understand how real software behaves beyond the code that makes it run.</p>
+<div class="actions"><a class="btn primary" href="#projects">Explore my work</a><a class="btn" href="mailto:chnvss.719@gmail.com">Get in touch</a></div></div>
+<div class="terminal"><div class="dots">● ● ●</div><pre><span>$</span> whoami
 
-        <div class="project-card">
-            <h3>Student Grade Analysis</h3>
-            <p>A Python program to track and visualize academic performance.</p>
-            <a href="https://github.com/Sureshcheemala/student-grade-analysis" target="_blank" class="btn">View on GitHub</a>
-        </div>
+role      Software Engineer
+focus     Java / Spring Boot
+systems   Microservices
+security  Cybersecurity
+learning  Systems thinking
 
-        <!-- You can add more project cards here later -->
-    </section>
+<span>$</span> status
+<b>building → learning → improving</b></pre></div>
+</section>
 
-    <footer>
-        <p>Made with ❤️ by Suresh | © 2025</p>
-    </footer>
-</body>
-</html>
+<section id="about" class="section wrap">
+<p class="eyebrow">01 · ABOUT</p><h2>More than a technology list.</h2>
+<div class="two">
+<div><p class="lead">My main interest is software engineering: designing backend systems, understanding service boundaries, working with data, and figuring out what happens when those pieces interact.</p>
+<p>FounderLink is my largest project so far — a full-stack startup collaboration platform built with Spring Boot microservices. Alongside software engineering, I've developed hands-on exposure to networking, web security, vulnerability assessment, Linux and digital forensics.</p>
+<p>I'm deliberately building depth rather than collecting frameworks. Each project is an opportunity to understand architecture, reliability, security, debugging and engineering trade-offs.</p></div>
+<div class="principles">
+<div><b>01</b><span><strong>Understand why</strong>Technology choices should solve a problem, not just fill a stack.</span></div>
+<div><b>02</b><span><strong>Build to learn</strong>Projects are where concepts become engineering judgment.</span></div>
+<div><b>03</b><span><strong>Debug the system</strong>When something breaks, follow the behavior across boundaries.</span></div>
+</div></div>
+</section>
+
+<section id="projects" class="section alt">
+<div class="wrap"><p class="eyebrow">02 · SOFTWARE ENGINEERING</p><h2>Things I've built.</h2><p class="sub">FounderLink is the flagship project; the others show my backend and microservices progression.</p>
+<article class="featured">
+<p class="label">FEATURED · FULL-STACK MICROSERVICES</p><div class="title-row"><div><h3>FounderLink</h3><p>Startup collaboration & investment platform</p></div><small>6 services implemented</small></div>
+<p class="desc">A distributed platform connecting founders, investors, co-founders and administrators. React communicates through Spring Cloud Gateway, with Eureka for service discovery and RabbitMQ for asynchronous event communication.</p>
+<div class="architecture"><span>React SPA</span><i>→</i><span>API Gateway<br><small>JWT · routing</small></span><i>→</i><div class="services"><span>Auth</span><span>User</span><span>Startup</span><span>Investment</span><span>Team</span><span>Notification</span></div></div>
+<div class="details"><div><h4>Implemented</h4><ul><li>JWT authentication and role-based authorization</li><li>Six independently deployable services</li><li>RabbitMQ events for startup, investment and team workflows</li><li>Docker Compose deployment and service networking</li><li>Swagger API documentation/testing and Zipkin tracing</li></ul></div><div><h4>Problems I worked through</h4><ul><li>Docker service discovery and container networking</li><li>Service startup dependencies</li><li>CORS between frontend and backend</li><li>JWT expiry and client-side session handling</li></ul></div></div>
+<div class="tags"><span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>Spring Cloud</span><span>RabbitMQ</span><span>React</span><span>MySQL</span><span>Docker</span><span>Zipkin</span></div>
+</article>
+<div class="cards"><article><p class="label">BACKEND</p><h3>Order Management System</h3><p>E-commerce backend covering users, orders, transactions, lifecycle workflows, validation and global exception handling.</p><div class="tags"><span>Spring Boot</span><span>Spring Security</span><span>JPA</span><span>MySQL</span></div></article>
+<article><p class="label">MICROSERVICES</p><h3>Movie Ticket Booking</h3><p>Distributed booking system with service discovery, centralized configuration, OpenFeign communication and seat availability validation.</p><div class="tags"><span>Spring Boot</span><span>OpenFeign</span><span>Eureka</span><span>Config Server</span></div></article></div>
+</div></section>
+
+<section id="cyber" class="section wrap">
+<p class="eyebrow">03 · CYBERSECURITY</p><h2>Learning systems from the other side.</h2><p class="sub">Security is a parallel engineering track: understand how systems are exposed, assessed, monitored and defended.</p>
+<div class="cyber">
+<article><b>01</b><h3>Web Reconnaissance Tool</h3><p>Python CLI tool using Requests and BeautifulSoup to crawl web applications and extract URLs, parameters and forms for structured reconnaissance and attack-surface mapping.</p><div class="tags"><span>Python</span><span>Requests</span><span>BeautifulSoup</span><span>Recon</span></div></article>
+<article><b>02</b><h3>Network Security Assessment</h3><p>Simulated network assessment using Kali Linux, Nmap, OpenVAS and Wireshark to identify exposed ports, outdated services and configuration issues.</p><div class="tags"><span>Kali Linux</span><span>Nmap</span><span>OpenVAS</span><span>Wireshark</span></div></article>
+<article class="stats"><b>03</b><h3>Hands-on security</h3><strong>60+</strong><small>TryHackMe rooms</small><strong>13</strong><small>badges earned</small><strong>Top 8%</strong><small>global ranking</small><strong>23rd</strong><small>university CTF · 200+ participants</small></article>
+</div>
+<div class="pillbox"><span>Networking</span><span>TCP/IP</span><span>OSI Model</span><span>OWASP Top 10</span><span>Vulnerability Assessment</span><span>Web Security</span><span>Linux</span><span>Digital Forensics</span><span>FTK</span></div>
+</section>
+
+<section id="stack" class="section alt"><div class="wrap"><p class="eyebrow">04 · ENGINEERING STACK</p><h2>What I work with.</h2>
+<div class="stack"><div><h3>Languages</h3><p>Java · C++ · Python · JavaScript · TypeScript</p></div><div><h3>Backend</h3><p>Spring Boot · Spring Security · REST APIs · JPA/Hibernate · Microservices</p></div><div><h3>Distributed Systems</h3><p>Spring Cloud · Eureka · API Gateway · OpenFeign · RabbitMQ</p></div><div><h3>Data</h3><p>MySQL · SQL</p></div><div><h3>Frontend</h3><p>React · HTML · CSS · Tailwind CSS</p></div><div><h3>DevOps & Tools</h3><p>Docker · Docker Compose · Maven · Git · GitHub · Swagger · Zipkin · Postman</p></div><div><h3>Security</h3><p>JWT · RBAC · Networking · OWASP · Nmap · Wireshark · OpenVAS · Kali Linux · FTK</p></div><div><h3>Foundations</h3><p>OOP · Data Structures & Algorithms · Problem Solving · Linux fundamentals</p></div></div></div></section>
+
+<section id="journey" class="section wrap"><p class="eyebrow">05 · ENGINEERING JOURNEY</p><h2>Where I'm going next.</h2><p class="sub">The goal isn't to know every tool. It's to become stronger at understanding and building systems.</p>
+<div class="timeline"><article><b>01</b><h3>Software Engineering</h3><p>Deepen Java, Spring, DSA, testing, architecture and backend design.</p></article><article><b>02</b><h3>Distributed Systems</h3><p>Go deeper into reliability, communication, observability, performance and failure modes.</p></article><article><b>03</b><h3>Cybersecurity</h3><p>Strengthen networking, web security, vulnerability assessment and secure system design.</p></article><article><b>04</b><h3>Cloud & Infrastructure</h3><p>Build practical depth in deployment, infrastructure, automation and operations.</p></article><article><b>05</b><h3>AI Engineering</h3><p>Explore AI as an engineering capability integrated with real software systems.</p></article></div></section>
+
+<section class="section alt"><div class="wrap"><p class="eyebrow">06 · CREDENTIALS</p><h2>Learning beyond projects.</h2><div class="credentials"><div><b>IBM DevOps and Software Engineering</b><small>Coursera</small></div><div><b>Linux Unhatched</b><small>Cisco</small></div><div><b>CompTIA Linux+ XKO-005</b><small>Cybrary</small></div><div><b>IBM Junior Cybersecurity Analyst</b><small>Coursera</small></div></div></div></section>
+
+<section id="contact" class="contact"><div class="wrap"><p class="eyebrow">07 · CONTACT</p><h2>Let's build something worth understanding.</h2><p>I'm interested in software engineering opportunities where I can keep building, debugging and growing into a stronger systems engineer.</p><div class="actions"><a class="btn primary" href="mailto:chnvss.719@gmail.com">chnvss.719@gmail.com</a><a class="btn" href="https://github.com/Sureshcheemala" target="_blank" rel="noopener">GitHub ↗</a></div></div></section>
+</main>
+<footer class="wrap"><span>© <span id="year"></span> Suresh Cheemala</span><span>HTML · CSS · JavaScript</span></footer>
+<script src="script.js"></script>
+</body></html>
