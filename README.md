@@ -1,15 +1,22 @@
-# Suresh Cheemala — Portfolio v1
+# Suresh Cheemala — Portfolio
 
-A static portfolio built with HTML, CSS and vanilla JavaScript.
+🌐 **Live Portfolio:** https://sureshcheemala.github.io
 
-## Structure
-- FounderLink is the flagship software-engineering project.
-- Order Management and Movie Ticket Booking are supporting projects.
-- Cybersecurity has its own project/achievement section.
-- The engineering stack shows the broader technologies and foundations.
-- The journey section leaves room for future Cloud and AI work.
+A personal portfolio showcasing my software engineering projects, cybersecurity work, technical skills, and engineering journey.
+
+## Featured
+
+- **FounderLink** — Full-stack startup collaboration and investment platform built with Spring Boot microservices.
+- **Order Management System** — E-commerce backend.
+- **Movie Ticket Booking** — Microservices-based booking system.
+- **Cybersecurity Projects** — Web reconnaissance and network security assessment.
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
 
 ## GitHub Pages
-Upload these files to the root of the GitHub Pages repository and enable Pages from the `main` branch.
 
-Before publishing, add real URLs for LinkedIn, project repositories/demos, certificates and the resume when available.
+This repository hosts my personal portfolio through GitHub Pages.
