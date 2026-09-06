@@ -83,6 +83,48 @@ h2{font-size:clamp(2.2rem,5vw,3.6rem);letter-spacing:-.05em}
 .contact p:not(.eyebrow){color:#929eac;max-width:680px;margin:18px auto}
 .contact .actions{justify-content:center}
 footer{border-top:1px solid #263140;padding:23px 0 35px;color:#697788;font-size:.7rem;display:flex;justify-content:space-between}
+.hero-side{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.profile-card{
+    position:relative;
+    overflow:hidden;
+    border:1px solid #263140;
+    border-radius:14px;
+    background:#111720;
+}
+
+.profile-card img{
+    display:block;
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    object-position:center;
+}
+
+.profile-info{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:15px;
+    padding:14px 17px;
+    border-top:1px solid #263140;
+}
+
+.profile-info span{
+    color:#79e2c0;
+    font-size:.65rem;
+    font-weight:800;
+    letter-spacing:.12em;
+}
+
+.profile-info strong{
+    font-family:"Space Grotesk";
+    font-size:.9rem;
+}
 @media(max-width:900px){.hero,.two,.cyber{grid-template-columns:1fr}
 .hero{min-height:auto;padding-top:80px}
 .architecture{grid-template-columns:1fr}
@@ -103,6 +145,9 @@ footer{border-top:1px solid #263140;padding:23px 0 35px;color:#697788;font-size:
     padding-left:0;
     padding-right:0;
     border-left:0;
+}
+.profile-card img{
+    height:340px;
 }
 .cards article{padding:23px}
 .cyber article{min-height:auto}
