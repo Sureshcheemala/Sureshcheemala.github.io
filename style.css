@@ -96,8 +96,14 @@ footer{border-top:1px solid #263140;padding:23px 0 35px;color:#697788;font-size:
 .featured{padding:22px}
 .title-row{display:block}
 .title-row small{display:inline-block;margin-top:12px}
-.details,.cards,.credentials,.stack{grid-template-columns:1fr}
+.details,.cards,.credentials,.stack,.tracks{grid-template-columns:1fr}
 .stack>div:nth-child(even){padding-left:0;border-left:0}
+.track,
+.track:nth-child(even){
+    padding-left:0;
+    padding-right:0;
+    border-left:0;
+}
 .cards article{padding:23px}
 .cyber article{min-height:auto}
 footer{flex-direction:column;gap:5px}}
