@@ -3,8 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Suresh Cheemala — Software Engineer focused on Java, Spring Boot, distributed systems and cybersecurity.">
+<meta name="description" content="Suresh Cheemala — Software Engineer focused on backend development, full-stack systems, and mobile engineering with Java, Spring Boot, React, and React Native.">
 <title>Suresh Cheemala | Software Engineer</title>
+<link rel="canonical" href="https://sureshcheemala.github.io/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+<!-- Open Graph / Social Sharing -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sureshcheemala.github.io/">
+<meta property="og:title" content="Suresh Cheemala | Software Engineer">
+<meta property="og:description" content="Suresh Cheemala — Software Engineer focused on backend development, full-stack systems, and mobile engineering with Java, Spring Boot, React, and React Native.">
+<meta property="og:image" content="https://sureshcheemala.github.io/profile.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://sureshcheemala.github.io/">
+<meta name="twitter:title" content="Suresh Cheemala | Software Engineer">
+<meta name="twitter:description" content="Suresh Cheemala — Software Engineer focused on backend development, full-stack systems, and mobile engineering with Java, Spring Boot, React, and React Native.">
+<meta name="twitter:image" content="https://sureshcheemala.github.io/profile.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -14,13 +30,15 @@
 <header>
     <nav class="nav wrap">
         <a class="logo" href="#top">SC<span>.</span></a>
-        <button class="menu" aria-label="Menu">☰</button>
-        <div class="links">
+        <button class="menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+        <div class="links" id="nav-links">
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#cyber">Cybersecurity</a>
             <a href="#stack">Stack</a>
-            <a href="#journey">Journey</a>
+            <a href="#tracks">Tracks</a>
+            <a href="#education">Education</a>
+            <a href="#credentials">Credentials</a>
             <a href="#contact">Contact</a>
         </div>
     </nav>
@@ -28,11 +46,11 @@
 
 <main id="top">
 <section class="hero wrap">
-    <div><p class="eyebrow">SOFTWARE ENGINEER · SYSTEMS BUILDER</p>
+    <div><p class="eyebrow">SOFTWARE ENGINEER · SYSTEMS & APPLICATIONS</p>
         <h1>Building software.<br>
             <em>Understanding the systems behind it.</em>
         </h1>
-        <p class="intro">I'm Suresh Cheemala, a Computer Science graduate focused on Java, Spring Boot, distributed systems and security. I build projects to understand how real software behaves beyond the code that makes it run.</p>
+        <p class="intro">I'm Suresh Cheemala, a Software Engineer focused on backend development, full-stack systems, and mobile engineering. I build practical, resilient software using Java, Spring Boot, React, React Native, and distributed architectures—prioritizing clean service boundaries and reliable offline-first capabilities, while exploring cybersecurity, cloud infrastructure, and AI engineering.</p>
         <div class="actions">
             <a class="btn primary" href="#projects">Explore my work</a>
             <a class="btn" href="mailto:chnvss.719@gmail.com">Get in touch</a>
@@ -41,7 +59,7 @@
     <div class="hero-side">
 
         <div class="profile-card">
-            <img src="profile.jpg" alt="Suresh Cheemala">
+            <img src="profile.jpg" alt="Suresh Cheemala" width="568" height="569" loading="eager" fetchpriority="high">
             <div class="profile-info">
                 <span>SOFTWARE ENGINEER</span>
                 <strong>Suresh Cheemala</strong>
@@ -50,18 +68,16 @@
 
         <div class="terminal">
             <div class="dots">● ● ●</div>
-            <pre>
-                <span>$</span> whoami
+            <pre><span>$</span> whoami
 
-                role      Software Engineer
-                focus     Java / Spring Boot
-                systems   Microservices
-                security  Cybersecurity
-                learning  Systems thinking
+role        Software Engineer
+backend     Java · Spring Boot · Microservices
+apps        React · React Native · TypeScript
+systems     SQL · Docker · Distributed Systems
+exploring   Cybersecurity · Cloud · AI
 
-                <span>$</span> status
-                <b>building → learning → improving</b>
-            </pre>
+<span>$</span> status
+<b>building → learning → improving</b></pre>
         </div>
     </div>
 </section>
@@ -71,9 +87,9 @@
     <h2>More than a technology list.</h2>
     <div class="two">
         <div>
-            <p class="lead">My main interest is software engineering: designing backend systems, understanding service boundaries, working with data, and figuring out what happens when those pieces interact.</p>
-            <p>FounderLink is my largest project so far — a full-stack startup collaboration platform built with Spring Boot microservices. Alongside software engineering, I've developed hands-on exposure to networking, web security, vulnerability assessment, Linux and digital forensics.</p>
-            <p>I'm deliberately building depth rather than collecting frameworks. Each project is an opportunity to understand architecture, reliability, security, debugging and engineering trade-offs.</p>
+            <p class="lead">My focus is software engineering: designing scalable backend systems, architecting microservices, and developing responsive full-stack and mobile applications with offline-first capabilities.</p>
+            <p>FounderLink is my flagship full-stack platform built with Spring Boot microservices, React, and RabbitMQ. Alongside core engineering, I actively study system security, cloud infrastructure, and AI systems to ensure the software I build is resilient, observable, and secure.</p>
+            <p>I deliberately cultivate engineering depth rather than collecting frameworks. Each project is an opportunity to practice architecture, data modeling, reliability, security, debugging, and real engineering trade-offs.</p>
         </div>
         <div class="principles">
             <div>
@@ -102,7 +118,7 @@
     <div class="wrap">
         <p class="eyebrow">02 · SOFTWARE ENGINEERING</p>
         <h2>Things I've built.</h2>
-        <p class="sub">FounderLink is the flagship project; the others show my backend and microservices progression.</p>
+        <p class="sub">Selected software engineering projects demonstrating distributed backend systems, microservice architectures, and offline-first full-stack and mobile applications.</p>
         <article class="featured">
             <p class="label">FEATURED · FULL-STACK MICROSERVICES</p>
             <div class="title-row">
@@ -161,12 +177,44 @@
                 <span>Docker</span>
                 <span>Zipkin</span>
             </div>
+            <div class="project-actions">
+                <a class="btn" href="https://github.com/Sureshcheemala/founderlink-ci-cd" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a>
+            </div>
         </article>
         <div class="cards">
             <article>
-                <p class="label">BACKEND</p>
-                <h3>Order Management System</h3>
-                <p>E-commerce backend covering users, orders, transactions, lifecycle workflows, validation and global exception handling.</p>
+                <div class="card-content">
+                    <p class="label">MOBILE · OFFLINE-FIRST</p>
+                    <h3>Daymark Offline</h3>
+                    <p>Adaptive task recovery mobile app shortlisted in the Top 200 for TCS Zeta Innovate. Dynamically reorganizes schedules when daily plans are interrupted, recalculating unfinished tasks while honoring hard deadlines, priority tiers, fixed time commitments, and remaining task durations.</p>
+                </div>
+                <div class="tags">
+                    <span>React Native</span>
+                    <span>TypeScript</span>
+                    <span>SQLite</span>
+                    <span>Offline-First</span>
+                </div>
+            </article>
+            <article>
+                <div class="card-content">
+                    <p class="label">HEALTH TECH · PWA</p>
+                    <h3>GlucoGuide MVP</h3>
+                    <p>Offline-first health screening and education web application featuring IDRS-based risk evaluation, personalized dietary guidance, localized assessment history, and bilingual English/Telugu support. Designed for educational awareness rather than medical diagnosis.</p>
+                </div>
+                <div class="tags">
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>Vite</span>
+                    <span>IndexedDB</span>
+                    <span>PWA</span>
+                </div>
+            </article>
+            <article>
+                <div class="card-content">
+                    <p class="label">BACKEND</p>
+                    <h3>Order Management System</h3>
+                    <p>E-commerce backend covering users, orders, transactions, lifecycle workflows, validation and global exception handling.</p>
+                </div>
                 <div class="tags">
                     <span>Spring Boot</span>
                     <span>Spring Security</span>
@@ -175,9 +223,11 @@
                 </div>
             </article>
             <article>
-                <p class="label">MICROSERVICES</p>
-                <h3>Movie Ticket Booking</h3>
-                <p>Distributed booking system with service discovery, centralized configuration, OpenFeign communication and seat availability validation.</p>
+                <div class="card-content">
+                    <p class="label">MICROSERVICES</p>
+                    <h3>Movie Ticket Booking</h3>
+                    <p>Distributed booking system with service discovery, centralized configuration, OpenFeign communication and seat availability validation.</p>
+                </div>
                 <div class="tags">
                     <span>Spring Boot</span>
                     <span>OpenFeign</span>
@@ -226,7 +276,7 @@
             <strong>Top 8%</strong>
             <small>global ranking</small>
             <strong>23rd</strong>
-            <small>university CTF · 200+ participants</small>
+            <small>university CTF · 200+ participants · Sep 2024</small>
         </article>
     </div>
     <div class="pillbox">
@@ -244,52 +294,51 @@
 
 <section id="stack" class="section alt">
     <div class="wrap">
-        <p class="eyebrow">04 · ENGINEERING STACK</p>
-        <h2>What I work with.</h2>
+        <p class="eyebrow">04 · TECHNICAL STACK</p>
+        <h2>Technologies I work with.</h2>
         <div class="stack">
             <div>
-                <h3>Languages</h3>
-                <p>Java · C++ · Python · JavaScript · TypeScript</p>
+                <h3>Programming Languages</h3>
+                <p>Java · C · C++ · Python · JavaScript · TypeScript</p>
             </div>
             <div>
-                <h3>Backend</h3>
-                <p>Spring Boot · Spring Security · REST APIs · JPA/Hibernate · Microservices</p>
+                <h3>Backend Development</h3>
+                <p>Spring Boot · Spring Security · Spring Cloud · REST APIs · Microservices · JPA / Hibernate</p>
             </div>
             <div>
-                <h3>Distributed Systems</h3>
-                <p>Spring Cloud · Eureka · API Gateway · OpenFeign · RabbitMQ</p>
+                <h3>Frontend & Mobile</h3>
+                <p>React · React Native · TypeScript · HTML5 · CSS3 · Vite · Tailwind CSS</p>
             </div>
             <div>
-                <h3>Data</h3>
-                <p>MySQL · SQL</p>
+                <h3>Databases & Messaging</h3>
+                <p>MySQL · SQLite · MongoDB · RabbitMQ · IndexedDB</p>
             </div>
             <div>
-                <h3>Frontend</h3>
-                <p>React · HTML · CSS · Tailwind CSS</p>
+                <h3>DevOps & Cloud Infrastructure</h3>
+                <p>Docker · Docker Compose · Git · GitHub Actions · CI/CD · Maven · Linux (Ubuntu/Debian)</p>
             </div>
             <div>
-                <h3>DevOps & Tools</h3>
-                <p>Docker · Docker Compose · Maven · Git · GitHub · Swagger · Zipkin · Postman</p>
+                <h3>Cybersecurity & Systems Analysis</h3>
+                <p>Nmap · Wireshark · OpenVAS · Kali Linux · Network Security · OWASP Top 10</p>
             </div>
             <div>
-                <h3>Security</h3>
-                <p>JWT · RBAC · Networking · OWASP · Nmap · Wireshark · OpenVAS · Kali Linux · FTK</p>
+                <h3>Testing & API Tooling</h3>
+                <p>Postman · Swagger / OpenAPI · Zipkin · JUnit · Mockito</p>
             </div>
             <div>
-                <h3>Foundations</h3>
-                <p>OOP · Data Structures & Algorithms · Problem Solving · Linux fundamentals</p>
+                <h3>Core Engineering Foundations</h3>
+                <p>Data Structures & Algorithms · Object-Oriented Design · Distributed System Design · Problem Solving</p>
             </div>
         </div>
     </div>
 </section>
 
-<section id="journey" class="section alt">
+<section id="tracks" class="section">
   <div class="wrap">
     <p class="eyebrow">05 · ENGINEERING TRACKS</p>
-    <h2>What I'm developing.</h2>
+    <h2>Engineering focus & trajectory.</h2>
     <p class="sub">
-      Multiple engineering disciplines, developed in parallel with software engineering
-      as the core foundation.
+      A solid foundation in backend systems and full-stack software development, expanding through cloud infrastructure and security, with a long-term trajectory toward applied AI engineering.
     </p>
 
     <div class="tracks">
@@ -297,18 +346,18 @@
       <div class="track">
         <div class="track-number">01</div>
         <div>
-          <h3>Software Engineering</h3>
+          <div class="track-header">
+            <h3>Software Engineering</h3>
+            <span class="track-status core">DEMONSTRATED CORE</span>
+          </div>
           <p>
-            My primary foundation — building depth in Java, Spring Boot, backend
-            development, DSA, testing, architecture and problem solving.
+            Hands-on software development across scalable backend services, full-stack web platforms, and offline-first mobile apps. Focused on clean domain boundaries, robust data validation, and resilient architecture using Java, Spring Boot, React, and React Native.
           </p>
-          <div class="tags">
-            <span>Java</span>
-            <span>Spring Boot</span>
-            <span>Spring Security</span>
-            <span>REST APIs</span>
-            <span>JPA/Hibernate</span>
-            <span>DSA</span>
+          <div class="track-focus">
+            <span>Backend Architecture</span>
+            <span>REST API Design</span>
+            <span>Mobile & Offline Systems</span>
+            <span>Clean Code & DSA</span>
           </div>
         </div>
       </div>
@@ -316,18 +365,18 @@
       <div class="track">
         <div class="track-number">02</div>
         <div>
-          <h3>Distributed Systems</h3>
+          <div class="track-header">
+            <h3>Backend & Distributed Systems</h3>
+            <span class="track-status core">PRACTICAL ARCHITECTURE</span>
+          </div>
           <p>
-            Understanding how independently running services communicate, fail,
-            scale and remain observable.
+            Practical experience architecting microservice ecosystems with API gateway routing, centralized service discovery, declarative inter-service REST clients, and asynchronous event streaming via RabbitMQ. Emphasizing fault isolation and distributed tracing.
           </p>
-          <div class="tags">
-            <span>Spring Cloud</span>
-            <span>Eureka</span>
-            <span>API Gateway</span>
-            <span>OpenFeign</span>
-            <span>RabbitMQ</span>
-            <span>Microservices</span>
+          <div class="track-focus">
+            <span>Microservice Boundaries</span>
+            <span>Asynchronous Messaging</span>
+            <span>Service Discovery</span>
+            <span>Distributed Tracing</span>
           </div>
         </div>
       </div>
@@ -335,19 +384,18 @@
       <div class="track">
         <div class="track-number">03</div>
         <div>
-          <h3>Cybersecurity</h3>
+          <div class="track-header">
+            <h3>Cybersecurity & Defensive Systems</h3>
+            <span class="track-status specializing">ACTIVE SPECIALIZATION</span>
+          </div>
           <p>
-            Developing a security perspective through networking, web security,
-            vulnerability assessment, reconnaissance and Linux.
+            Developing a security-first engineering perspective through practical vulnerability assessment, attack surface reconnaissance, and network traffic analysis. Bridging application development with secure authentication, threat mitigation, and CTF challenges.
           </p>
-          <div class="tags">
-            <span>Networking</span>
-            <span>OWASP</span>
-            <span>Nmap</span>
-            <span>Wireshark</span>
-            <span>OpenVAS</span>
-            <span>Kali Linux</span>
-            <span>FTK</span>
+          <div class="track-focus">
+            <span>Network Auditing</span>
+            <span>Reconnaissance Tooling</span>
+            <span>OWASP Top 10</span>
+            <span>Defensive Architecture</span>
           </div>
         </div>
       </div>
@@ -355,17 +403,18 @@
       <div class="track">
         <div class="track-number">04</div>
         <div>
-          <h3>Cloud & Infrastructure</h3>
+          <div class="track-header">
+            <h3>Cloud & Infrastructure</h3>
+            <span class="track-status specializing">ACTIVE UPSKILLING</span>
+          </div>
           <p>
-            Building practical understanding of deployment, containers,
-            infrastructure, automation and system operations.
+            Building practical depth in container orchestration, deployment automation, CI/CD pipelines, and Linux server environments. Actively preparing for Oracle Cloud Infrastructure (OCI) Foundations certifications to support modern cloud deployments.
           </p>
-          <div class="tags">
-            <span>Docker</span>
-            <span>Docker Compose</span>
-            <span>Linux</span>
-            <span>Git</span>
-            <span>Maven</span>
+          <div class="track-focus">
+            <span>Docker Networking</span>
+            <span>CI/CD Workflows</span>
+            <span>Linux Administration</span>
+            <span>OCI Cloud Preparation</span>
           </div>
         </div>
       </div>
@@ -373,14 +422,18 @@
       <div class="track">
         <div class="track-number">05</div>
         <div>
-          <h3>AI Engineering</h3>
+          <div class="track-header">
+            <h3>AI & Applied AI Engineering</h3>
+            <span class="track-status exploring">LONG-TERM EXPLORATION</span>
+          </div>
           <p>
-            Developing AI as an engineering capability that can be integrated
-            into real software systems.
+            Strategic trajectory toward becoming an AI-capable Software Systems Engineer. Studying core machine learning foundations and patterns for integrating intelligent models and automated agents reliably into real-world software architectures.
           </p>
-          <div class="tags">
-            <span>Exploring</span>
+          <div class="track-focus">
             <span>Systems Integration</span>
+            <span>Intelligent Agent Workflows</span>
+            <span>Applied Machine Learning</span>
+            <span>OCI AI Foundations</span>
           </div>
         </div>
       </div>
@@ -389,39 +442,139 @@
   </div>
 </section>
 
-<section class="section alt">
+<section id="education" class="section alt">
     <div class="wrap">
-        <p class="eyebrow">06 · CREDENTIALS</p>
-        <h2>Learning beyond projects.</h2>
-        <div class="credentials">
-            <div>
-                <b>IBM DevOps and Software Engineering</b>
-                <small>Coursera</small>
+        <p class="eyebrow">06 · EDUCATION</p>
+        <h2>Academic foundation.</h2>
+        <p class="sub">Computer Science and Engineering background with strong academic foundations in mathematics and science.</p>
+
+        <div class="education-grid">
+            <div class="edu-card primary">
+                <div class="edu-header">
+                    <div>
+                        <span class="edu-badge">B.TECH · COMPLETED</span>
+                        <h3>Bachelor of Technology in Computer Science & Engineering</h3>
+                        <p class="edu-institution">Lovely Professional University, Punjab, India</p>
+                    </div>
+                    <div class="edu-meta">
+                        <span class="edu-period">August 2022 – May 2026</span>
+                        <strong class="edu-score">CGPA 7.35 / 10</strong>
+                    </div>
+                </div>
             </div>
-            <div>
-                <b>Linux Unhatched</b>
-                <small>Cisco</small>
-            </div>
-            <div>
-                <b>CompTIA Linux+ XKO-005</b>
-                <small>Cybrary</small>
-            </div>
-            <div>
-                <b>IBM Junior Cybersecurity Analyst</b>
-                <small>Coursera</small>
+
+            <div class="edu-secondary-grid">
+                <div class="edu-card secondary">
+                    <span class="edu-badge-sub">INTERMEDIATE (CLASS XII)</span>
+                    <h3>Sri Chaitanya Junior College</h3>
+                    <p class="edu-institution">Vijayawada, Andhra Pradesh</p>
+                    <div class="edu-score-row">
+                        <span>Score</span>
+                        <strong>96%</strong>
+                    </div>
+                </div>
+
+                <div class="edu-card secondary">
+                    <span class="edu-badge-sub">MATRICULATION (CLASS X)</span>
+                    <h3>Sri Chaitanya School</h3>
+                    <p class="edu-institution">Ravulapalem, Andhra Pradesh</p>
+                    <div class="edu-score-row">
+                        <span>Score</span>
+                        <strong>99%</strong>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="contact" class="contact">
+<section id="credentials" class="section">
     <div class="wrap">
-        <p class="eyebrow">07 · CONTACT</p>
+        <p class="eyebrow">07 · CREDENTIALS & ACHIEVEMENTS</p>
+        <h2>Verified learning & competitive milestones.</h2>
+        <p class="sub">Certifications, specialized engineering coursework, and competitive problem-solving recognitions.</p>
+
+        <div class="achievements-grid">
+            <div class="achievement-card">
+                <span class="achievement-badge">INNOVATION CHALLENGE</span>
+                <h3>TCS Zeta Innovate</h3>
+                <p>Selected in the <strong>Top 200 shortlist</strong> nationwide for <em>Daymark Offline</em>, an adaptive task recovery system.</p>
+                <small>National Innovation Challenge</small>
+            </div>
+            <div class="achievement-card">
+                <span class="achievement-badge">CYBERSECURITY COMPETITION</span>
+                <h3>University CTF</h3>
+                <p>Secured <strong>23rd place</strong> competing against <strong>200+ participants</strong> across multi-category security challenges.</p>
+                <small>September 2024</small>
+            </div>
+            <div class="achievement-card">
+                <span class="achievement-badge">HANDS-ON SECURITY</span>
+                <h3>TryHackMe Global Standing</h3>
+                <p>Ranked in the <strong>Top 8% globally</strong> with <strong>60+ rooms completed</strong> and <strong>13 badges</strong> earned.</p>
+                <small>Competitive Cybersecurity Platform</small>
+            </div>
+        </div>
+
+        <h3 class="section-subheading">Certifications & Training</h3>
+        <div class="credentials">
+            <div>
+                <span class="cred-type">ROLE CERTIFICATION</span>
+                <h3>Software Engineer</h3>
+                <span>HackerRank</span>
+            </div>
+            <div>
+                <span class="cred-type">ROLE CERTIFICATION</span>
+                <h3>Software Engineer Intern</h3>
+                <span>HackerRank</span>
+            </div>
+            <div>
+                <span class="cred-type">SKILL CERTIFICATION</span>
+                <h3>Java (Basic)</h3>
+                <span>HackerRank</span>
+            </div>
+            <div>
+                <span class="cred-type">PROFESSIONAL SPECIALIZATION</span>
+                <h3>IBM DevOps and Software Engineering</h3>
+                <span>Coursera</span>
+            </div>
+            <div>
+                <span class="cred-type">PROFESSIONAL CERTIFICATE</span>
+                <h3>IBM Junior Cybersecurity Analyst</h3>
+                <span>Coursera</span>
+            </div>
+            <div>
+                <span class="cred-type">SYSTEMS TRAINING</span>
+                <h3>CompTIA Linux+ XK0-005 Training</h3>
+                <span>Cybrary · Coursework & Training</span>
+            </div>
+            <div>
+                <span class="cred-type">SYSTEMS COURSE</span>
+                <h3>Linux Unhatched</h3>
+                <span>Cisco Networking Academy</span>
+            </div>
+            <div class="in-progress">
+                <span class="cred-type in-progress">PREPARING · IN PROGRESS</span>
+                <h3>OCI Foundations Associate</h3>
+                <span>Oracle Cloud Infrastructure</span>
+            </div>
+            <div class="in-progress">
+                <span class="cred-type in-progress">PREPARING · IN PROGRESS</span>
+                <h3>OCI AI Foundations Associate</h3>
+                <span>Oracle Cloud Infrastructure</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact alt">
+    <div class="wrap">
+        <p class="eyebrow">08 · CONTACT</p>
         <h2>Let's build something worth understanding.</h2>
         <p>I'm interested in software engineering opportunities where I can keep building, debugging and growing into a stronger systems engineer.</p>
         <div class="actions">
             <a class="btn primary" href="mailto:chnvss.719@gmail.com">chnvss.719@gmail.com</a>
-            <a class="btn" href="https://github.com/Sureshcheemala" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="btn" href="https://github.com/Sureshcheemala" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a class="btn" href="https://www.linkedin.com/in/sureshcheemala/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
         </div>
     </div>
 </section>
